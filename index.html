@@ -230,16 +230,29 @@ footer{border-top:1px solid var(--line)}
 <script>
 /* PRODUKTY. imgs: lista zdjęć (adresy data:image/...), stripe: link do płatności Stripe (https://buy.stripe.com/...) */
 var P=[
-{id:"aurora",n:"Sukienka Aurora",d:"Satynowa sukienka maxi z odkrytymi plecami.",p:890,t:"dress",top:1,imgs:[],stripe:"",
+{id:"aurora",n:"Sukienka Aurora",d:"Satynowa sukienka maxi z odkrytymi plecami.",p:890,t:"dress",top:1,imgs:[
+ "Image/20261027-_C0A1084.jpg",
+ "Image/20261027-_C0A1087.jpg",
+ "Image/20261027-_C0A1093.jpg",
+ "Image/20261027-_C0A1095.jpg"],stripe:"",
  long:"Sukienka Aurora to propozycja na wieczór, który ma zostać w pamięci. Satynowa tkanina spływa po sylwetce, a odkryte plecy dodają całości lekkości. Czerń z delikatnym złotym połyskiem na szwach.",
  spec:[["Materiał","Satyna, 95% poliester, 5% elastan"],["Długość","Maxi, 142 cm w rozmiarze M"],["Kolor","Czarny ze złotym detalem"],["Pielęgnacja","Pranie ręczne w 30°C"],["Rozmiary","XS, S, M, L, XL"]]},
-{id:"noir",n:"Żakiet Noir",d:"Dopasowany żakiet ze złotymi guzikami.",p:760,t:"jacket",top:1,imgs:[],stripe:"",
+{id:"noir",n:"Żakiet Noir",d:"Dopasowany żakiet ze złotymi guzikami.",p:760,t:"jacket",top:1,imgs:["Image/20261027-_C0A1072.jpg",
+ "Image/20261027-_C0A1075.jpg",
+ "Image/20261027-_C0A1078.jpg",
+ "Image/20261027-_C0A1082.jpg"],stripe:"",
  long:"Żakiet Noir ma wcięty krój, ostre ramiona i jedwabną podszewkę. Złote guziki to jedyny dodatek, bo reszta robi się sama. Pasuje do spodni, spódnicy i sukienki.",
  spec:[["Materiał","Wełna z domieszką jedwabiu"],["Podszewka","100% jedwab"],["Kolor","Czarny, złote guziki"],["Pielęgnacja","Pranie chemiczne"],["Rozmiary","XS, S, M, L, XL"]]},
-{id:"vesper",n:"Spodnie Vesper",d:"Szerokie spodnie z wysokim stanem.",p:520,t:"pants",top:0,imgs:[],stripe:"",
+{id:"vesper",n:"Spodnie Vesper",d:"Szerokie spodnie z wysokim stanem.",p:520,t:"pants",top:0,imgs:["Image/20261027-_C0A1097.jpg",
+ "Image/20261027-_C0A1102.jpg",
+ "Image/20261027-_C0A1104.jpg",
+ "Image/20261027-_C0A1102.jpg"],stripe:"",
  long:"Spodnie Vesper mają wysoki stan i szeroką nogawkę, która spada miękko i wydłuża sylwetkę. Są wygodne od rana do nocy.",
  spec:[["Materiał","Krepa, 96% poliester, 4% elastan"],["Wysokość stanu","Wysoki"],["Kolor","Czarny"],["Pielęgnacja","Pranie w 30°C"],["Rozmiary","XS, S, M, L, XL"]]},
-{id:"lumi",n:"Top Lumière",d:"Jedwabny top z drapowaniem i złotym połyskiem.",p:430,t:"top",top:1,imgs:[],stripe:"",
+{id:"lumi",n:"Top Lumière",d:"Jedwabny top z drapowaniem i złotym połyskiem.",p:430,t:"top",top:1,imgs:["Image/20261027-_C0A1126.jpg",
+ "Image/20261027-_C0A1129.jpg",
+ "Image/20261027-_C0A1131.jpg",
+ "Image/20261027-_C0A1133.jpg"],stripe:"",
  long:"Top Lumière to jedwab z delikatnym drapowaniem przy dekolcie. Łapie światło i dobrze wygląda zarówno z dżinsami, jak i z garniturowymi spodniami.",
  spec:[["Materiał","100% jedwab"],["Kolor","Czarny ze złotym połyskiem"],["Pielęgnacja","Pranie chemiczne"],["Rozmiary","XS, S, M, L, XL"]]}];
 var ART={dress:'<path d="M32 6l-8 24-14 66h60L66 30 58 6M32 6c6 8 20 8 26 0"/>',jacket:'<path d="M30 8L10 22l6 70h26V34l6 8 6-8v58h26l6-70L70 8 48 30z"/>',pants:'<path d="M22 8h52l8 88H54L48 40l-6 56H14z"/>',top:'<path d="M30 10L12 30l10 14 8-6v52h36V38l8 6 10-14L66 10c-4 8-32 8-36 0z"/>'};
